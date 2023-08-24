@@ -68,6 +68,8 @@ private:
     void show(Layout& layout, const std::string& msg) { show(layout, msg.c_str()); }
     void show(Layout& layout, const char* msg);
 
+    void showImage(Layout& layout, const uint8_t* bmp);
+
     uint8_t font_width(font_t font);
     uint8_t font_height(font_t font);
     size_t  char_width(char s, font_t font);
